@@ -1,0 +1,500 @@
+<!doctype html>
+<html>
+	<head>
+        {% load static %}
+		<title>Anime</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Play-Offs Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!meta charset utf="8">
+		<!--fonts-->
+				
+			
+		<!--fonts-->
+		<!--choclatecss-->
+		<link rel="stylesheet" href="{% static 'css/chocolat.css' %}" type="text/css" media="screen" charset="utf-8" />
+		<!--owlcss-->
+		<link href="{% static 'css/owl.carousel.css' %}" rel="stylesheet">
+		<!--bootstrap-->
+			<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+		<!--coustom css-->
+			<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css"/>
+		<!--default-js-->
+			<script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+		<!--bootstrap-js-->
+			<script src="{% static 'js/bootstrap.min.js' %}"></script>
+		<!--script-->
+		<script src="{% static 'js/jquery.circlechart.js' %}"></script>
+        <!--script-->
+        <style >
+             .diy_class {
+                font-size: 14px;
+                box-sizing: border-box;
+                white-space: normal;
+                word-wrap: break-word;
+                word-break: break-all;
+                overflow: hidden;
+                display: inline-block;
+
+             }
+             .diy_class2{
+                 white-space: nowrap;
+             }
+
+        </style>
+	</head>
+	<body>
+		<div class="header">
+			<nav class="navbar navbar-default">
+				<div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav cl-effect-2 active_hover">
+                        <li><a href="http://127.0.0.1:8000"><span data-hover="CycleGAN">Painting</span></a></li>
+                        <li><a href="http://127.0.0.1:8000/AnimeGAN"><span class="active" data-hover="AnimeGAN">Anime</span></a></li>
+
+						<li><a href="http://127.0.0.1:8000/blog"><span data-hover="Intro">Intro</span></a></li>
+						<li><a href="http://127.0.0.1:8000/contact"><span data-hover="Contact">Contact</span></a></li>
+						</ul>
+                        <ul class="form_acess">
+                            <form class="re-disgn1">
+                            <input type="text" name="s" class="textbox" value="Search.." onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search...';}">
+							<input type="submit" value="">
+							</form>
+                    </ul>
+					</div><!-- /.navbar-collapse -->
+                <div class="clearfix"></div>
+				</div><!-- /.container-fluid -->
+			</nav>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+					<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active  image-wid">
+					<img src="{% static 'images/paprika.gif' %}" alt="..." />
+					<div class="carousel-caption">
+						<h3>Paprika</h3>
+						<p><br>When a machine that allows therapists to enter their patients' dreams is stolen, all hell breaks loose. Only a young female therapist, Paprika, can stop it.</p>
+                        <a href="https://www.imdb.com/title/tt0851578/" target="_blank"><button type=button οnclick="window.open('连接')" class="btn btn-info sld">Read more</button></a>
+					</div>
+					</div>
+					<div class="item  image-wid">
+					<img src="{% static 'images/face.gif'%}" alt="..." />
+					<div class="carousel-caption">
+						<h3>Face Potrait</h3>
+						<p><br>Stylize face portrait anime</p>
+						<button type="button" class="btn btn-info sld">Read more</button>
+					</div>
+					</div>
+
+				</div>
+				<!-- Controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+				</a>
+				</div>
+		</div>
+		<!--header-->
+		<div class="about">
+			<div class="container">
+				<div class="about-text">
+					<h3>About AnimeGAN</h3>
+					<p></p>
+				</div>
+                <!--二次元小人-->
+                <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+                <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
+				<div class="about-content">
+						<div class="about_data">
+							<div class="lap_left">
+								<div class="col-md-4 re_imaging">
+									<img src="{% static 'images/paprika_left.png' %}" alt="/">
+								</div>
+								<div class="col-md-8 re_text">
+									<h4>Paprika</h4>
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;《红辣椒》是由今敏执导,林原惠美、古谷彻、江守彻等配音的动画电影,于2006年上映。影片改编自筒井康隆的封笔之作《梦侦探》,讲述美女医师千叶敦子在一家精神医学研究所工作,与天才科学家时田浩作一起发明了一种能监测患者梦境并改变患者梦境的仪器“DC MINI”从而引发的故事。</p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; 我们的模型通过从电影《红辣椒》中选取了1284张图片,并结合特定的损失函数来进行训练,模型可以将图片的场景分割转变为《红辣椒》中的场景风格。</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="lap_right">
+								<div class="col-md-8 re_text">
+									<h4>Face Portrait</h4>
+                                    <p>&nbsp;</p>
+									<p>我们的模型还可以实现将人脸肖像动漫化。<br>如右图所示,可以利用我们的模型将三次元王冰冰转换成二次元王冰冰,双倍快乐!</p>
+                                    <p>&nbsp;</p>
+								</div>
+								<div class="col-md-4 re_imaging">
+									<img src="{% static 'images/face_right.gif' %}" alt="/">
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<div class="circles">
+							<div class="col-md-3 circle 1">
+								<div class="demo-3 re_pstn1" data-percent="85"></div>
+							</div>
+							<div class="col-md-3 circle 2">
+								<div class="demo-4 re_pstn1" data-percent="75"></div>
+							</div>
+							<div class="col-md-3 circle 3">
+								<div class="demo-2 re_pstn1" data-percent="55"></div>
+							</div>
+							<div class="col-md-3 circle 4">
+								<div class="demo-1 re_pstn1" data-percent="65"></div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+							<script>
+									$('.demo-1').percentcircle();
+
+									$('.demo-2').percentcircle({
+									animate : true,
+									diameter : 100,
+									guage: 3,
+									coverBg: '#fff',
+									bgColor: '#efefef',
+									fillColor: '#E95546',
+									percentSize: '15px',
+									percentWeight: 'normal'
+									});
+
+									$('.demo-3').percentcircle({
+									animate : true,
+									diameter : 100,
+									guage: 3,
+									coverBg: '#fff',
+									bgColor: '#efefef',
+									fillColor: '#DA4453',
+									percentSize: '18px',
+									percentWeight: 'normal'
+									});
+									$('.demo-4').percentcircle({
+									animate : true,
+									diameter : 100,
+									guage: 3,
+									coverBg: '#fff',
+									bgColor: '#efefef',
+									fillColor: '#46CFB0',
+									percentSize: '18px',
+									percentWeight: 'normal'
+									});
+									$('.demo-5').percentcircle({
+									animate : true,
+									diameter : 100,
+									guage: 3,
+									coverBg: '#fff',
+									bgColor: '#efefef',
+									fillColor: '#8BC163',
+									percentSize: '18px',
+									percentWeight: '20px'
+									});
+									$('.demo-6').percentcircle({
+									animate : true,
+									diameter : 100,
+									guage: 10,
+									coverBg: '#fff',
+									bgColor: '#efefef',
+									fillColor: '#D870A9',
+									percentSize: '18px',
+									percentWeight: 'normal'
+									});
+
+									</script><script type="text/javascript">
+
+									var _gaq = _gaq || [];
+									_gaq.push(['_setAccount', 'UA-36251023-1']);
+									_gaq.push(['_setDomainName', 'jqueryscript.net']);
+									_gaq.push(['_trackPageview']);
+
+									(function() {
+									var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+									ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+									var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+									})();
+
+									</script>
+				</div>
+				<div class="testimonials">
+						<div class="testimonial_grid">
+							<!-- requried-jsfiles-for owl -->
+							<script src="{% static 'js/owl.carousel.js' %}"></script>
+							<script>
+								$(document).ready(function() {
+									$("#owl-demo").owlCarousel({
+										items : 3,
+										lazyLoad : true,
+										autoPlay : true,
+										pagination : false,
+									});
+								});
+							</script>
+							<!-- //requried-jsfiles-for owl -->
+							<!-- start content_slider -->
+							<div id="example1">
+							<div id="owl-demo" class="owl-carousel text-center">
+								<div class="item">
+									<a href="{% static 'images/aa.jpg' %}" title="Rose" rel="title1">
+										<img class="lazyOwl img-responsive" data-src="{% static 'images/aa.jpg' %}" alt="name"/>
+									</a>
+								</div>
+								<div class="item">
+								<a href="{% static 'images/ab.jpg' %}" title="Rose" rel="title1">
+									<img class="lazyOwl img-responsive" data-src="{% static 'images/ab.jpg' %}" alt="name" />
+									</a>
+								</div>
+								<div class="item">
+									<a href="{% static 'images/ac.jpg' %}" title="Rose" rel="title1" >
+									<img class="lazyOwl img-responsive" data-src="{% static 'images/ac.jpg' %}" alt="name" />
+									</a>
+								</div>
+								<div class="item">
+									<a href="{% static 'images/ad.jpg' %}" title="Rose" rel="title1">
+									<img class="lazyOwl img-responsive" data-src="{% static 'images/ad.jpg' %}" alt="name" />
+									</a>
+								</div>
+								<div class="item">
+									<a href="{% static 'images/ae.jpg' %}" title="Rose" rel="title1" >
+									<img class="lazyOwl img-responsive" data-src="{% static 'images/ae.jpg' %}" alt="name" />
+									</a>
+								</div>
+								<div class="item">
+									<a href="images/af.jpg" title="Rose" rel="title1">
+									<img class="lazyOwl img-responsive" data-src="{% static 'images/af.jpg' %}" alt="name" />
+									</a>
+								</div>
+								<div class="item">
+									<a href="images/ag.jpg" title="Rose" rel="title1" >
+									<img class="lazyOwl img-responsive" data-src="{% static 'images/ag.jpg' %}" alt="name" />
+									</a>
+								</div>
+                                <div class="item">
+									<a href="images/ah.jpg" title="Rose" rel="title1" >
+									<img class="lazyOwl img-responsive" data-src="{% static 'images/ah.jpg' %}" alt="name" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<!--script-->
+							<script src="{% static 'js/jquery.chocolat.js' %}"></script>
+							<!--light-box-files -->
+							<script type="text/javascript" charset="utf-8">
+							$(function() {
+								$('#example1 a').Chocolat();
+							});
+							</script>
+						</div>
+				</div>
+			</div>
+		</div>
+        <div class="icons-grid">
+				<div class="container">
+					<div class="col-md-6 txt-grid">
+						<span class="glyphicon glyphicon-heart re_styl2" aria-hidden="true"  onclick="anime_GAN_upload_paprika()"></span>
+						<h4>paprika</h4>
+					</div>
+					<div class="col-md-6 txt-grid">
+						<span class="glyphicon glyphicon-heart re_styl2" aria-hidden="true" onclick="anime_GAN_upload_face_portrait()"></span>
+						<h4>face_portrait</h4>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+        </div>
+        <div class="images_grid" style="padding: 3em 0em;text-align: center;">
+
+                <div>
+                    <input id="img_input" type="file" accept="image/*" style="display: none"/>
+                    <label for="img_input" id="img_label" style="color:#FFFFFF;background-color: #B0E0E6;border-radius: 51px;display: inline-block;padding: 2px;">选择图片</label>
+                </div>
+                <div class="diy_class2">
+
+                    <div class="diy_class" id="preview_box" style="position: relative;">
+                        <img src="{% static 'raw_imgs/anime_GAN_imgs/15.jpg'%}" height="500" id="static_img">
+                    </div>
+
+                    <div class="diy_class" style="position: relative;">
+                        <img src="{% static 'result_imgs/anime_GAN/face_portrait/15.jpg' %}" height="500"  id="img_res"/>
+                    </div>
+
+                </div>
+            </div>
+		<!--footer-->
+		<div class="logo_label">
+				<div class="container">
+					<div class="logo re_styl5">
+						<a class="navbar-brand" href="#">Top</a>
+					</div>
+				</div>
+			</div>
+		<div class="footer">
+				<div class="container">
+					<div class="div1">
+						<div class="col-md-2 head">
+							<h3>get inspired</h3>
+							<ul class="inspired">
+								<li><a target="_blank" href="https://arxiv.org/abs/1406.2661">GAN</a></li>
+								<li><a target="_blank" href="https://arxiv.org/abs/1703.10593">CycleGAN</a></li>
+								<li><a target="_blank" href="https://link.springer.com/chapter/10.1007/978-981-15-5577-0_18">AnimeGAN</a></li>
+								<li><a target="_blank" href="https://arxiv.org/abs/1704.04861">MobileNet</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 head">
+							<h3>support</h3>
+							<ul class="customer">
+								<li><a href="#">Terms and Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+								<li><a href="#">FAQ</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 head">
+							<h3>sites</h3>
+							<ul class="sites">
+								<li><a target="_blank" href="http://chenghaodong666.github.io">亦爱Zxy</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 head">
+							<h3>contents</h3>
+							<ul class="contents">
+                                <li><a href="http://127.0.0.1:8000/gallery">Gallery</a></li>
+								<li><a href="http://127.0.0.1:8000/blog">Intro</a></li>
+                                <li><a href="http://127.0.0.1:8000/contact">Contact</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4 mail_soc">
+							<div class="form_data">
+								<form>
+									<input class="mail2" type="text" name="email" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
+									<input class="btn btn-default re_dsgn6" type="button" value="join">
+								</form>
+								<p>subscribe us.</p>
+							</div>
+								<div class="social">
+									<ul>
+										<li><a href="#" class="face"></a></li>
+										<li><a href="#" class="twit"></a></li>
+										<li><a href="#" class="gplus"></a></li>
+										<li><a href="#" class="insta"></a></li>
+									</ul>
+								</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="div2">
+						<p>Copyright &copy; 2021.&nbsp;董成豪 严韬 温家烨 张晓雅 刘雨彤 蒋中慧 李静纯.&nbsp;All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+	</body>
+    <script type="text/javascript">
+
+        $("#img_input").on("change", function(e){
+            var file = e.target.files[0]; //获取图片资源
+
+            // 只选择图片文件
+            if (!file.type.match('image.*')) {
+                return false;
+            }
+
+            var reader = new FileReader();
+
+            reader.readAsDataURL(file); // 读取文件
+
+            // 渲染文件
+            reader.onload = function(arg) {
+
+                var img = '<img id="preview" src="' + arg.target.result + '" alt="preview"  height="500"/>';
+                $("#preview_box").empty().append(img);
+
+            }
+        });
+
+        function anime_GAN_upload_paprika(){
+            var img_type = 'paprika'
+            var form_data = new FormData();
+            var img_data = $("#img_input").prop("files")[0];
+            if(img_data==undefined){
+                img_data = $("#static_img").attr("src")
+                form_data.append("state", "static")
+            }
+
+
+            form_data.append("img", img_data);
+            form_data.append("type", img_type);
+
+            $.ajax({
+                type: "POST", // 上传文件要用POST
+                url: "/cycle_GAN_upload_3/",
+                crossDomain: true,
+                processData: false,
+                contentType: false,
+                async:false,
+                data: form_data,
+                dataType:"json",
+                success:function(arg){
+                    if(arg.state == 1){
+                        $('#img_res').attr('src', "../"+arg.src)
+                        $('#img_res').attr('height', 500)
+                        alert('上传成功')
+                    }else {
+                        alert('上传失败')
+                    }
+                },error:function (){
+                    alert("访问繁忙，请重试")
+                }
+
+            })
+        }
+
+        function anime_GAN_upload_face_portrait(){
+            var img_type = 'face_portrait'
+            var form_data = new FormData();
+            var img_data = $("#img_input").prop("files")[0];
+            if(img_data==undefined){
+                img_data = $("#static_img").attr("src")
+                form_data.append("state", "static")
+            }
+
+
+            form_data.append("img", img_data);
+            form_data.append("type", img_type);
+
+            $.ajax({
+                type: "POST", // 上传文件要用POST
+                url: "/cycle_GAN_upload_3/",
+                crossDomain: true,
+                processData: false,
+                contentType: false,
+                data: form_data,
+                async:false,
+                dataType:"json",
+                success:function(arg){
+                    if(arg.state == 1){
+                        $('#img_res').attr('src', "../"+arg.src)
+                        $('#img_res').attr('height', 500)
+                        alert('上传成功')
+                    }else {
+                        alert('上传失败')
+                    }
+                },error:function (){
+                    alert("访问繁忙，请重试")
+                }
+            })
+        }
+
+    </script>
+</html>
